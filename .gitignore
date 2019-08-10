@@ -4,3 +4,7 @@
 
 # Artifacts
 dist/
+dist-newstyle/
+
+# Misc
+.ghc*
