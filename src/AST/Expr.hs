@@ -34,7 +34,3 @@ data Expr
   -- | Empty expression. Removes the need to define two forms of `&`.
   | Empty
   deriving (Eq, Show)
-
-
-sample :: Expr
-sample = EvArgs "ls" [] :>> EvArgs "echo" [Val (StrVal "Foo")]
