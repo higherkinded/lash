@@ -5,6 +5,7 @@ module AST.Value
 import Data.Text
 
 data Value
-  = StringVal Text
-  | BoolVal Bool
-  | IntVal Integer
+  = StrVal    Text
+  | BoolVal   Bool
+  | IntVal    Integer
+  deriving (Eq, Show)
