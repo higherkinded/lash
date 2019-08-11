@@ -34,3 +34,6 @@ data Expr
   -- | Empty expression. Removes the need to define two forms of `&`.
   | Empty
   deriving (Eq, Show)
+
+instance Semigroup Expr where a <> b = a :>> b
+instance Monoid Expr where mempty = Empty
