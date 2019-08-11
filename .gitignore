@@ -4,3 +4,8 @@
 
 # Artifacts
 dist/
+dist-newstyle/
+
+# Misc
+.ghc*
+cabal.project.local
